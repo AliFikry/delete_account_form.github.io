@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for AALAM HONEY & HERBALS">
+  <title>Privacy Policy | AALAM HONEY &amp; HERBALS</title>
+  <style>
+    :root {
+      --primary: #cc9a25;
+      --primary-dark: #a87b16;
+      --accent: #fbd203;
+      --text: #2c2518;
+      --muted: #6f6758;
+      --bg: #fcfbf7;
+      --card: #ffffff;
+      --border: #f0ebd8;
+      --shadow: 0 10px 35px rgba(204, 154, 37, 0.08);
+      --gradient-brand: linear-gradient(180deg, #fbd203, #cc9a25);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.75;
+    }
+
+    a {
+      color: var(--primary-dark);
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .hero {
+      background: var(--gradient-brand);
+      color: #1a1508;
+      padding: 72px 20px 64px;
+    }
+
+    .hero-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 24px;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #3b2c05;
+    }
+
+    .brand-mark {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ffffff;
+      box-shadow: 0 0 0 6px rgba(255, 255, 255, 0.35);
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 1.08;
+      letter-spacing: -0.035em;
+      color: #1a1508;
+    }
+
+    .hero p {
+      max-width: 720px;
+      margin: 0;
+      color: rgba(26, 21, 8, 0.9);
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+    .updated {
+      display: inline-block;
+      margin-top: 22px;
+      padding: 7px 14px;
+      border: 1px solid rgba(0, 0, 0, 0.12);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.4);
+      font-size: 13px;
+      font-weight: 600;
+      color: #241c05;
+    }
+
+    .layout {
+      max-width: 1000px;
+      margin: -28px auto 60px;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: 230px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .toc {
+      position: sticky;
+      top: 20px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .toc-title {
+      margin: 0 0 12px;
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+
+    .toc a {
+      display: block;
+      padding: 7px 8px;
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    .toc a:hover {
+      background: #fbf7ec;
+      text-decoration: none;
+      color: var(--primary-dark);
+    }
+
+    main {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .content {
+      padding: 42px 48px;
+    }
+
+    section {
+      padding: 0 0 34px;
+      margin: 0 0 34px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    section:last-child {
+      padding-bottom: 0;
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 23px;
+      line-height: 1.3;
+      color: var(--primary-dark);
+      letter-spacing: -0.015em;
+    }
+
+    h3 {
+      margin: 22px 0 8px;
+      font-size: 17px;
+      color: var(--text);
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul, ol {
+      margin: 10px 0 14px;
+      padding-left: 24px;
+    }
+
+    li { margin: 5px 0; }
+
+    .notice {
+      margin: 20px 0 4px;
+      padding: 20px 22px;
+      border: 1px solid #f2e3b8;
+      border-left: 4px solid var(--primary);
+      border-radius: 12px;
+      background: #fffdf5;
+    }
+
+    .notice strong {
+      color: var(--primary-dark);
+    }
+
+    .delete-card {
+      margin-top: 18px;
+      padding: 26px;
+      border-radius: 16px;
+      background: #fffef8;
+      border: 1px solid #faecc5;
+    }
+
+    .delete-button {
+      display: inline-block;
+      margin: 10px 0 4px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      background: var(--gradient-brand);
+      color: #1a1508;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 3px 12px rgba(204, 154, 37, 0.25);
+    }
+
+    .delete-button:hover {
+      background: linear-gradient(180deg, #fcd924, #b88819);
+      text-decoration: none;
+    }
+
+    .contact {
+      display: grid;
+      gap: 8px;
+      margin-top: 16px;
+      padding: 20px;
+      border-radius: 14px;
+      background: #fbf9f2;
+      border: 1px solid var(--border);
+    }
+
+    footer {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px 40px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 800px) {
+      .layout {
+        display: block;
+        margin-top: -18px;
+      }
+
+      .toc {
+        position: static;
+        margin-bottom: 18px;
+      }
+
+      .toc a {
+        display: inline-block;
+        margin: 2px;
+      }
+
+      .content {
+        padding: 30px 24px;
+      }
+
+      .hero {
+        padding: 52px 20px 48px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .content { padding: 26px 20px; }
+      h2 { font-size: 21px; }
+      .hero p { font-size: 15px; }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .hero { padding: 30px 0; background: #fff; color: #000; }
+      .hero p, .updated { color: #444; }
+      .layout { display: block; margin: 0 auto; }
+      .toc { display: none; }
+      main { box-shadow: none; border: 0; }
+      .content { padding: 20px 0; }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="brand">
+        <span class="brand-mark"></span>
+        AALAM HONEY &amp; HERBALS[cite: 1]
+      </div>
+
+      <h1>Privacy Policy</h1>
+
+      <p>
+        This Privacy Policy explains how AALAM HONEY &amp; HERBALS collects,
+        uses, protects, retains, and deletes personal information when you
+        use our mobile application and related services.[cite: 1]
+      </p>
+
+      <div class="updated">Last Updated: August 24, 2026[cite: 1]</div>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="toc">
+      <div class="toc-title">Contents</div>
+      <a href="#introduction">1. Introduction</a>
+      <a href="#collection">2. Information We Collect</a>
+      <a href="#use">3. How We Use Information</a>
+      <a href="#payments">4. Orders &amp; Payments</a>
+      <a href="#sharing">5. Sharing Information</a>
+      <a href="#third-party">6. Third-Party Services</a>
+      <a href="#security">7. Data Security</a>
+      <a href="#retention">8. Data Retention</a>
+      <a href="#deletion">9. Account Deletion</a>
+      <a href="#children">10. Children's Privacy</a>
+      <a href="#cookies">11. Cookies &amp; Technologies</a>
+      <a href="#notifications">12. Communications</a>
+      <a href="#external">13. External Links</a>
+      <a href="#international">14. International Transfers</a>
+      <a href="#rights">15. Your Privacy Rights</a>
+      <a href="#legal">16. Legal Compliance</a>
+      <a href="#changes">17. Policy Changes</a>
+      <a href="#contact">18. Contact Us</a>
+    </aside>
+
+    <main>
+      <div class="content">
+
+        <section id="introduction">
+          <h2>1. Introduction</h2>
+          <p>
+            AALAM HONEY &amp; HERBALS ("we", "us", or "our") respects your
+            privacy and is committed to protecting your personal information.[cite: 1]
+          </p>
+          <p>
+            This Privacy Policy explains what information we may collect when
+            you use our mobile application and related services, how we use
+            that information, how we protect it, how long we retain it, and
+            how you can request deletion of your account and personal data.[cite: 1]
+          </p>
+        </section>
+
+        <section id="collection">
+          <h2>2. Information We Collect</h2>
+          <p>
+            Depending on how you use our application, we may collect the
+            following categories of information.[cite: 1]
+          </p>
+
+          <h3>Account Information</h3>
+          <p>
+            When you create or use an account, we may collect information such
+            as your name, email address, phone number, password or
+            authentication credentials, and other information associated with
+            your account.[cite: 1]
+          </p>
+
+          <h3>Order and Transaction Information</h3>
+          <p>
+            When you place an order, we may collect information necessary to
+            process and fulfill the order, including products purchased,
+            quantities, prices, delivery address, contact information,
+            order status, and transaction-related information.[cite: 1]
+          </p>
+
+          <h3>Device and Technical Information</h3>
+          <p>
+            Depending on the services and technologies used by the application,
+            certain technical information may be collected automatically,
+            including device type and model, operating system, application
+            version, IP address, device identifiers, and technical or
+            diagnostic information.[cite: 1]
+          </p>
+
+          <h3>Information You Provide</h3>
+          <p>
+            We may also collect information that you voluntarily provide when
+            contacting customer support, requesting assistance, submitting an
+            inquiry, or participating in activities offered through our
+            services.[cite: 1]
+          </p>
+        </section>
+
+        <section id="use">
+          <h2>3. How We Use Your Information</h2>
+          <p>We may use collected information to:[cite: 1]</p>
+          <ul>
+            <li>Create and manage your account.[cite: 1]</li>
+            <li>Process and fulfill orders.[cite: 1]</li>
+            <li>Arrange delivery of purchased products.[cite: 1]</li>
+            <li>Process payments and transactions.[cite: 1]</li>
+            <li>Communicate with you about your orders and account.[cite: 1]</li>
+            <li>Provide customer support.[cite: 1]</li>
+            <li>Maintain and improve our application and services.[cite: 1]</li>
+            <li>Detect and prevent fraud, abuse, and unauthorized activity.[cite: 1]</li>
+            <li>Protect the security of our users and services.[cite: 1]</li>
+            <li>Comply with applicable laws and legal obligations.[cite: 1]</li>
+            <li>Send service-related notifications.[cite: 1]</li>
+          </ul>
+          <p>
+            Where permitted by applicable law, we may also send promotional
+            communications.[cite: 1] You may opt out of promotional communications
+            where applicable.[cite: 1]
+          </p>
+        </section>
+
+        <section id="payments">
+          <h2>4. Orders and Payments</h2>
+          <p>
+            When you make a purchase through our application, we process the
+            information necessary to complete the transaction and deliver
+            your order.[cite: 1]
+          </p>
+          <p>
+            Depending on the payment method selected, payment processing may
+            be performed by third-party payment service providers.[cite: 1]
+          </p>
+          <p>
+            Payment providers may independently process payment information in
+            accordance with their own privacy policies and terms.[cite: 1] We do not
+            sell your payment information.[cite: 1]
+          </p>
+        </section>
+
+        <section id="sharing">
+          <h2>5. Sharing of Information</h2>
+          <p>
+            We do not sell or rent your personal information.[cite: 1]
+          </p>
+          <p>
+            We may share information with trusted third parties when necessary
+            to provide our services, including:[cite: 1]
+          </p>
+          <ul>
+            <li>Payment service providers.[cite: 1]</li>
+            <li>Delivery and logistics providers.[cite: 1]</li>
+            <li>Hosting and infrastructure providers.[cite: 1]</li>
+            <li>Authentication providers.[cite: 1]</li>
+            <li>Analytics or crash-reporting providers, where used.[cite: 1]</li>
+            <li>Customer support and service providers.[cite: 1]</li>
+            <li>Government authorities or law enforcement when required by law.[cite: 1]</li>
+          </ul>
+          <p>
+            Third-party service providers are permitted to use personal
+            information only as necessary to provide their services or comply
+            with applicable legal obligations.[cite: 1]
+          </p>
+        </section>
+
+        <section id="third-party">
+          <h2>6. Third-Party Services</h2>
+          <p>
+            Our application may use third-party services to provide
+            functionality such as security, analytics, authentication,
+            payments, hosting, notifications, or other services.[cite: 1]
+          </p>
+          <p>
+            These third-party providers may process certain information in
+            accordance with their own privacy policies.[cite: 1] Where applicable, we
+            encourage users to review the privacy policies of the relevant
+            third-party services.[cite: 1]
+          </p>
+        </section>
+
+        <section id="security">
+          <h2>7. Data Security</h2>
+          <p>
+            We take reasonable technical and organizational measures to protect
+            personal information against unauthorized access, alteration,
+            disclosure, loss, or destruction.[cite: 1]
+          </p>
+          <p>
+            However, no electronic transmission or storage system can be
+            guaranteed to be completely secure.[cite: 1]
+          </p>
+          <p>
+            Users are responsible for keeping their account credentials
+            confidential and should notify us immediately if they believe
+            their account has been accessed without authorization.[cite: 1]
+          </p>
+        </section>
+
+        <section id="retention">
+          <h2>8. Data Retention</h2>
+          <p>
+            We retain personal information only for as long as reasonably
+            necessary to provide our services, maintain accounts, process
+            transactions, resolve disputes, prevent fraud, comply with legal
+            obligations, and enforce our agreements.[cite: 1]
+          </p>
+          <p>
+            The specific retention period may vary depending on the type of
+            information and the reason it was collected.[cite: 1]
+          </p>
+          <p>
+            When personal information is no longer required, we will delete it
+            or securely anonymize it, subject to applicable legal and
+            regulatory requirements.[cite: 1]
+          </p>
+          <p>
+            Transaction and financial records may be retained for the period
+            required by applicable laws and regulations.[cite: 1]
+          </p>
+        </section>
+
+        <section id="deletion">
+          <h2>9. Account and Data Deletion</h2>
+
+          <div class="notice">
+            <strong>You can request deletion of your account and associated
+            personal data at any time.</strong>[cite: 1]
+          </div>
+
+          <p>
+            To request deletion of your account and associated personal
+            information, please use our dedicated account deletion page.[cite: 1]
+          </p>
+
+          <div class="delete-card">
+            <h3>Request Account Deletion</h3>
+            <p>
+              Visit the account deletion page and follow the instructions to
+              submit your request.[cite: 1]
+            </p>
+
+            <a
+              class="delete-button"
+              href="https://alifikry.github.io/delete_account_form.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Request Account Deletion[cite: 1]
+            </a>
+
+            <p style="margin-top: 14px; margin-bottom: 0;">
+              <strong>Deletion page:</strong>
+              <a
+                href="https://alifikry.github.io/delete_account_form.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                alifikry.github.io/delete_account_form.github.io[cite: 1]
+              </a>
+            </p>
+          </div>
+
+          <h3>How to Submit a Request</h3>
+          <ol>
+            <li>Open the account deletion page.[cite: 1]</li>
+            <li>Enter the email address associated with your account.[cite: 1]</li>
+            <li>Enter the required account credentials.[cite: 1]</li>
+            <li>Submit the request by selecting <strong>Delete Account</strong>.[cite: 1]</li>
+          </ol>
+
+          <p>
+            We will process valid deletion requests in accordance with our
+            account deletion procedures.[cite: 1]
+          </p>
+
+          <p>
+            Once a deletion request has been processed, your account and
+            eligible associated personal information will be deleted, subject
+            to information that we are legally required or permitted to
+            retain.[cite: 1]
+          </p>
+
+          <p>
+            Certain information may need to be retained for legal, accounting,
+            tax, fraud-prevention, security, transaction, or regulatory
+            purposes.[cite: 1] Such information will be retained only for the period
+            required or permitted by applicable law.[cite: 1]
+          </p>
+
+          <p>
+            If you cannot use the deletion page or require assistance, you may
+            contact us at
+            <a href="mailto:khalid.alkathiri@hotmail.com">
+              khalid.alkathiri@hotmail.com[cite: 1]
+            </a>.
+          </p>
+        </section>
+
+        <section id="children">
+          <h2>10. Children's Privacy</h2>
+          <p>
+            Our services are not intended for children under the age of 18.[cite: 1]
+            We do not knowingly collect personal information from individuals
+            under 18 years of age.[cite: 1]
+          </p>
+          <p>
+            If we become aware that personal information has been collected
+            from a child without appropriate authorization, we will take
+            reasonable steps to delete that information.[cite: 1]
+          </p>
+        </section>
+
+        <section id="cookies">
+          <h2>11. Cookies and Similar Technologies</h2>
+          <p>
+            Our website or services may use cookies or similar technologies
+            where necessary for functionality, security, analytics, or other
+            legitimate purposes.[cite: 1]
+          </p>
+          <p>
+            Cookies may be used to remember preferences, maintain sessions,
+            improve performance, and understand how our services are used.[cite: 1]
+          </p>
+          <p>
+            You may be able to control cookies through your browser or device
+            settings.[cite: 1]
+          </p>
+        </section>
+
+        <section id="notifications">
+          <h2>12. Communications and Notifications</h2>
+          <p>
+            We may send service-related communications, including:[cite: 1]
+          </p>
+          <ul>
+            <li>Order confirmations.[cite: 1]</li>
+            <li>Delivery updates.[cite: 1]</li>
+            <li>Account-related notifications.[cite: 1]</li>
+            <li>Security notifications.[cite: 1]</li>
+            <li>Important service announcements.[cite: 1]</li>
+          </ul>
+          <p>
+            Where promotional communications are sent, you may opt out where
+            applicable.[cite: 1]
+          </p>
+        </section>
+
+        <section id="external">
+          <h2>13. External Links</h2>
+          <p>
+            Our application or website may contain links to third-party
+            websites or services.[cite: 1]
+          </p>
+          <p>
+            We are not responsible for the privacy practices, content, or
+            security of third-party websites.[cite: 1] We recommend reviewing the
+            privacy policy of any third-party website or service before
+            providing personal information.[cite: 1]
+          </p>
+        </section>
+
+        <section id="international">
+          <h2>14. International Data Transfers</h2>
+          <p>
+            Depending on the service providers we use, your information may be
+            processed or stored in countries other than your country of
+            residence.[cite: 1]
+          </p>
+          <p>
+            Where required by applicable law, we will take appropriate measures
+            to protect personal information when it is transferred or
+            processed internationally.[cite: 1]
+          </p>
+        </section>
+
+        <section id="rights">
+          <h2>15. Your Privacy Rights</h2>
+          <p>
+            Depending on your location and applicable law, you may have rights
+            regarding your personal information, including the right to:[cite: 1]
+          </p>
+          <ul>
+            <li>Request access to your personal information.[cite: 1]</li>
+            <li>Request correction of inaccurate information.[cite: 1]</li>
+            <li>Request deletion of your personal information.[cite: 1]</li>
+            <li>Request restriction of certain processing.[cite: 1]</li>
+            <li>Object to certain processing.[cite: 1]</li>
+            <li>Withdraw consent where processing is based on consent.[cite: 1]</li>
+            <li>Request information about how your personal information is used.[cite: 1]</li>
+          </ul>
+          <p>
+            To exercise your applicable rights, contact us using the information
+            provided below.[cite: 1]
+          </p>
+        </section>
+
+        <section id="legal">
+          <h2>16. Legal and Regulatory Compliance</h2>
+          <p>
+            We may collect, use, retain, or disclose information when
+            necessary to:[cite: 1]
+          </p>
+          <ul>
+            <li>Comply with applicable laws and regulations.[cite: 1]</li>
+            <li>Respond to lawful requests from authorities.[cite: 1]</li>
+            <li>Protect our legal rights.[cite: 1]</li>
+            <li>Investigate fraud or security incidents.[cite: 1]</li>
+            <li>Enforce our terms and policies.[cite: 1]</li>
+            <li>Protect the safety and security of our users and services.[cite: 1]</li>
+          </ul>
+        </section>
+
+        <section id="changes">
+          <h2>17. Changes to This Privacy Policy</h2>
+          <p>
+            We may update this Privacy Policy from time to time to reflect
+            changes in our services, technology, legal requirements, or
+            privacy practices.[cite: 1]
+          </p>
+          <p>
+            When we make changes, we will update the <strong>Last Updated</strong>
+            date at the top of this Privacy Policy.[cite: 1]
+          </p>
+          <p>
+            We encourage you to periodically review this Privacy Policy to
+            stay informed about how we handle personal information.[cite: 1]
+          </p>
+        </section>
+
+        <section id="contact">
+          <h2>18. Contact Us</h2>
+          <p>
+            If you have questions, concerns, or requests regarding this
+            Privacy Policy or your personal information, please contact us.[cite: 1]
+          </p>
+
+          <div class="contact">
+            <div><strong>AALAM HONEY &amp; HERBALS</strong>[cite: 1]</div>
+            <div><strong>Email:</strong>
+              <a href="mailto:khalid.alkathiri@hotmail.com">
+                khalid.alkathiri@hotmail.com[cite: 1]
+              </a>
+            </div>
+            <div><strong>PO Box:</strong> 93040[cite: 1]</div>
+            <div><strong>Country:</strong> United Arab Emirates[cite: 1]</div>
+            <div><strong>City:</strong> Abu Dhabi – Mohammed Bin Zayed City, Mafraq East 10[cite: 1]</div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    © 2026 AALAM HONEY &amp; HERBALS. All rights reserved.[cite: 1]
+  </footer>
+</body>
+</html>
